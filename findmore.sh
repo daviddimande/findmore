@@ -29,9 +29,10 @@ find / -uid $uid -perm $permission 2> /dev/null
 }
 
 menu () {
+# this function build menu
 clear
 echo
-echo -e "\t\t\Welcome to findmore menu\n"
+echo -e "\t\t Welcome to findmore menu\n"
 echo -e "\t1. find files using username"
 echo -e "\t2. find files using username and permission mode"
 echo -e "\t3. find files using UID and permission mode"
@@ -40,6 +41,8 @@ echo -e "\t\tEnter option"
 read -n 1 option
 }
 menu
+
+# menu option validation
 case $option in
 0)
     break ;;
