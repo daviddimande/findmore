@@ -4,7 +4,7 @@ The main purpose of this repository is to explore in deph the find capabilities 
 
 USAGE:
 
-git clone 
-cd findmore
-chmod +x findmore.sh
+git clone \n
+cd findmore \n
+chmod +x findmore.sh \n
 ./findmore
